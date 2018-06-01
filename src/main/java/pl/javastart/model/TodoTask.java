@@ -4,7 +4,7 @@ import java.io.Serializable;
 import javax.persistence.*;
 
 @Entity
-@NamedQuery(name="TodoTask.findAll", query="SELECT t FROM ToodoTask t")
+@NamedQuery(name="TodoTask.findAll", query="SELECT t FROM TodoTask t")
 public class TodoTask implements Serializable {
 	private static final long serialVersionUID = 1L;
 
